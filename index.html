@@ -6,8 +6,8 @@
 	<script>
 		$(document).ready(function(){
 			$("button").click(function(){
-				let text = $("#lefttext").value;
-				$("#righttext").value = text;
+				let text = $("#lefttext").val();
+				$("#righttext").html(text);
 				// $.post("demo_test_post.asp",
 				// {
 				// 	name: "Donald Duck",
